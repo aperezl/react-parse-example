@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node -r esm index.js"
+    "dev": "nodemon -r esm index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
   "dependencies": {
     "esm": "^3.2.25",
     "express": "^4.17.1",
+    "parse-dashboard": "^2.1.0",
     "parse-server": "^4.5.0"
   }
 }
